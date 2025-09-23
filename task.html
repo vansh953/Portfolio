@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    emailjs.init("qQHtS3gqeqBlZMxYz");
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="#" class="logo">MyPortfolio</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <div class="home-content">
+      <h1>Hello, I am Vansh Monga.</h1>
+      <h2>Frontend Developer</h2>
+      <pre>
+➡ I create beautiful, responsive, and user-friendly websites using HTML and CSS and currently learning ⌨JavaScript.
+
+➡ From:- Bikaner, Uttar Rajasthan.
+
+➡ My age:- 18yrs.
+
+➡ Email:- vansh24164035@akgec.ac.in
+      </pre>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+    <div class="profile-img">
+      <img src="port1.img.jpg" alt="Profile Photo">
+    </div>
+  </section>
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">
+        <h3>⌨ HTML</h3>
+        <p>Semantic markup, accessibility, and modern HTML features.</p>
+      </div>
+      <div class="skill-box">
+        <h3>⌨ CSS</h3>
+        <p>Responsive design, Flexbox, Grid, and CSS animations.</p>
+      </div>
+      <div class="skill-box">
+        <h3>⌨ JavaScript</h3>
+        <p>A beginner to this feild.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Leadership Skills</h3>
+        <p>Communication, Decision-Making, and Motivation.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Managerial Skills</h3>
+        <p>Planning, Organization, and Team Management.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Marketing Skills</h3>
+        <p>Digital marketing, Branding, and Customer Engagement.</p>
+      </div>
+    </div>
+  </section>
+  <section id="achievements">
+    <h2 class="section-title">My Achievements</h2>
+    <div class="achievements-container">
+      <div class="achievement-box">
+        <h3>Man of the Match – District Cricket Semifinal</h3>
+        <p>Won the Man of the Match award in the semifinal of the District Level Cricket Tournament for outstanding performance.</p>
+      </div>
+      <div class="achievement-box">
+        <h3>Frontend Developer 2025</h3>
+        <p>Acknowledged as top frontend developer by Tech Society.</p>
+      </div>
+      <div class="achievement-box">
+        <h3>Merit Certificate – AI & ML</h3>
+        <p>Earned a CBSE authorized merit certificate in Artificial Intelligence and Machine Learning for academic excellence.</p>
+      </div>
+      <div class="achievement-box">
+        <h3>School Topper – PCM</h3>
+        <p>Earned a medal for academic excellence in Physics, Chemistry, and Mathematics.</p>
+      </div>
+      <div class="achievement-box">
+        <h3>District Hindi Debate Medal</h3>
+        <p>Received a medal for outstanding performance in the district-level Hindi debate competition.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <p>vansh24164035@akgec.ac.in</p>
+        </div>
+        <div class="contact-item">
+          <p>+91 8302465174</p>
+        </div>
+        <div class="contact-item">
+          <p>Bikaner, Rajasthan</p>
+        </div>
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/vansh_01_04/"><img src="insta.svg"></a>
+      <a href="https://www.linkedin.com/in/vansh-monga-7646372a1"><img src="linked.svg"></a>
+      <a href="https://github.com/vansh953"><img src="git.svg"></a>
+    </div>
+    <p>&copy; 2025 Vansh Monga. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+

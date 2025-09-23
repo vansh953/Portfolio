@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+  <linearGradient id="instaGradient" x1="0" x2="1" y1="1" y2="0">
+    <stop offset="0" stop-color="#f58529"/>
+    <stop offset="0.5" stop-color="#dd2a7b"/>
+    <stop offset="1" stop-color="#8134af"/>
+  </linearGradient>
+  <path fill="url(#instaGradient)" d="M34.5 6h-21C9.47 6 6 9.47 6 13.5v21C6 38.53 9.47 42 13.5 42h21c4.03 0 7.5-3.47 7.5-7.5v-21C42 9.47 38.53 6 34.5 6z"/>
+  <path fill="#fff" d="M24 16c-4.41 0-8 3.59-8 8s3.59 8 8 8c4.42 0 8-3.59 8-8s-3.58-8-8-8zm0 13.3c-2.93 0-5.3-2.37-5.3-5.3s2.37-5.3 5.3-5.3 5.3 2.37 5.3 5.3-2.37 5.3-5.3 5.3zM32.5 15.5c0 1-0.8 1.8-1.8 1.8s-1.8-0.8-1.8-1.8.8-1.8 1.8-1.8 1.8 0.8 1.8 1.8z"/>
+</svg>
